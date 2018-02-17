@@ -29,7 +29,7 @@ class Parser(object):
         
         print 'Reading file...'
         
-        f = open(FILE_NAME, 'rb')
+        f = open(file_name, 'rb')
         raw_data = f.read()
         f.close()
         
